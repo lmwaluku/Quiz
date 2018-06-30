@@ -12,8 +12,7 @@
     <string name="q4"><u>Question 4:</u></string>
     <string name="q5"><u>Question 5:</u></string>
 
-    // Questions Summary
-
+    // Questions
     <string name="q1q">Which Company developed Android?</string>
     <string name="q2q">What is Google well know for?</string>
     <string name="q3q">What does AI stands for?</string>
@@ -21,7 +20,6 @@
     <string name="q5q">True or False. Google is owned by Apple?</string>
 
     // Answers to choose from
-
     <string name="q1_1">Oracle</string>
     <string name="q1_2">Google</string>
 

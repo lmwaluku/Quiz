@@ -17,6 +17,13 @@ import android.widget.Toast;
 import android.widget.TextView;
 import org.w3c.dom.Text;
 
+/**
+ *  The program was developed by Lloyd Mwaluku
+ *  for the Udacity Android Basic Course
+ *  1 July 2018
+ * **/
+
+
 public class MainActivity extends AppCompatActivity {
 
     int quantity, score = 0;
@@ -43,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
             oracle.setBackgroundColor(Color.parseColor("#FF0000"));
         }
 
+        // Is the button now checked?
         RadioButton google = (RadioButton) findViewById(R.id.radioGoogle);
         boolean googleState = google.isChecked();
         if (googleState) {
@@ -50,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
             google.setBackgroundColor(Color.parseColor("#00FF00"));
         }
 
+        // Is the CheckBox now checked?
         CheckBox cycling = (CheckBox) findViewById(R.id.checkboxView2_1);
         boolean beenCycling = cycling.isChecked();
         if (beenCycling) {
@@ -57,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
             cycling.setBackgroundColor(Color.parseColor("#FF0000"));
         }
 
+        // Is the CheckBox now checked?
         CheckBox searching = (CheckBox) findViewById(R.id.checkboxView2_2);
         boolean beenSearching = searching.isChecked();
         if (beenSearching) {
@@ -64,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
             searching.setBackgroundColor(Color.parseColor("#00FF00"));
         }
 
+        // Is the button now checked?
         RadioButton srt = (RadioButton) findViewById(R.id.aiButton);
         boolean srtState = srt.isChecked();
         if (srtState) {
@@ -71,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
             srt.setBackgroundColor(Color.parseColor("#00FF00"));
         }
 
+        // Is the button now checked?
         RadioButton study = (RadioButton) findViewById(R.id.studyButton);
         boolean studyState = study.isChecked();
         if (studyState) {
@@ -78,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
             study.setBackgroundColor(Color.parseColor("#FF0000"));
         }
 
+        // Is the button now checked?
         RadioButton five = (RadioButton) findViewById(R.id.fiveButton);
         boolean fiveState = five.isChecked();
         if (fiveState) {
@@ -85,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
             five.setBackgroundColor(Color.parseColor("#00FF00"));
         }
 
+        // Is the button now checked?
         RadioButton two = (RadioButton) findViewById(R.id.twoButton);
         boolean twoState = two.isChecked();
         if (twoState) {
@@ -92,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
             two.setBackgroundColor(Color.parseColor("#FF0000"));
         }
 
+        // Is the button now checked?
         RadioButton yes = (RadioButton) findViewById(R.id.yesButton);
         boolean yesState = yes.isChecked();
         if (yesState) {
@@ -99,13 +114,18 @@ public class MainActivity extends AppCompatActivity {
             yes.setBackgroundColor(Color.parseColor("#00FF00"));
         }
 
+        // Is the button now checked?
         RadioButton no = (RadioButton) findViewById(R.id.noButton);
         boolean noState = no.isChecked();
         if (noState) {
             score10 = 0;
             no.setBackgroundColor(Color.parseColor("#FF0000"));
         }
+
+        // Calculate the total score of the quiz
         String totalScores = createSummary(score);
+
+        // Calls the function to display the results on the screen
         displayResults(totalScores);
     }
 
