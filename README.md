@@ -8,15 +8,16 @@ The project is part of 7DaysofCodeChallenge. An initiative from Andela Learning 
 
 ### Purpose
 The 7 day Challenge request that we create a Mobile Based Quiz App. The Quiz App will ask a number of questions.
-The Quiz App will ask students few question regarding their experience with the Android Trainings?
+The Quiz App will ask students few question regarding their experience with the Android Trainings and some other life orientation experience?
 
 ### Functionalities
 The Quiz App will posses the following features:
 <ul>
-  <li>Splash screen</li>
-  <li>Details Form</li>
-  <li>Summary Activities</li>
-  <li>Send to Email</li>
+  <li>Students Select one correct answer</li>
+  <li>Correct answers will be highlighted in Green</li>
+  <li>Wrong answers will be highkighted in Red</li>
+  <li>Summary of the Results will be displayed after the Submit Button</li>
+  <li>Designed with simply UI for better use and experience</li>
 </ul>
 
 ### Quiz App
